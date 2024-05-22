@@ -1,0 +1,20 @@
+{
+  "build": {
+    "appId": "auto-updator"
+  },
+  "name": "auto-updator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron .",
+    "build": "electron-builder --win portable --config"
+  },
+  "dependencies": {
+    "uaup-js": "^0.0.22"
+  },
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-builder": "^24.13.3"
+  }
+}
